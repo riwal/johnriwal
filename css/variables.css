@@ -1,0 +1,147 @@
+/* Single property */
+/* Multiple properties with same values */
+@font-face {
+  font-family: 'Heebo';
+  src: url("../fonts/heebo-black-webfont.woff2") format("woff2"), url("../fonts/heebo-black-webfont.woff") format("woff"), url("../fonts/heebo-black-webfont.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Heebo';
+  src: url("../fonts/heebo-bold-webfont.woff2") format("woff2"), url("../fonts/heebo-bold-webfont.woff") format("woff"), url("../fonts/heebo-bold-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Heebo';
+  src: url("../fonts/heebo-extrabold-webfont.woff2") format("woff2"), url("../fonts/heebo-extrabold-webfont.woff") format("woff"), url("../fonts/heebo-extrabold-webfont.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Heebo';
+  src: url("../fonts/heebo-light-webfont.woff2") format("woff2"), url("../fonts/heebo-light-webfont.woff") format("woff"), url("../fonts/heebo-light-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Heebo';
+  src: url("../fonts/heebo-medium-webfont.woff2") format("woff2"), url("../fonts/heebo-medium-webfont.woff") format("woff"), url("../fonts/heebo-medium-webfont.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Heebo';
+  src: url("../fonts/heebo-regular-webfont.woff2") format("woff2"), url("../fonts/heebo-regular-webfont.woff") format("woff"), url("../fonts/heebo-regular-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Heebo';
+  src: url("../fonts/heebo-thin-webfont.woff2") format("woff2"), url("../fonts/heebo-thin-webfont.woff") format("woff"), url("../fonts/heebo-thin-webfont.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+
+.title-mega-huge {
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: 2;
+  font-family: 'PT Serif', sans-serif; }
+
+.title-huge {
+  /*font-size: 4em;*/
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: 2;
+  font-family: 'PT Serif', sans-serif; }
+
+.title-1 {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: 'PT Serif', sans-serif; }
+
+.title-2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: 'Heebo', sans-serif;
+  letter-spacing: 1;
+  padding-bottom: 20px; }
+  .title-2:after {
+    margin-top: 10px;
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: #64656F;
+    content: ""; }
+
+.title-3 {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: 'Heebo', sans-serif;
+  letter-spacing: 1; }
+  @media (min-width: 1000px) {
+    .title-3 {
+      font-size: 1.2rem; } }
+  @media (min-width: 1200px) {
+    .title-3 {
+      font-size: 1.4rem; } }
+  @media (min-width: 1400px) {
+    .title-3 {
+      font-size: 1.6rem; } }
+
+.subtitle {
+  font-size: 1rem;
+  font-family: 'Heebo', serif;
+  font-weight: 300;
+  color: #64656F; }
+
+.text {
+  font-size: 1.5rem;
+  font-family: 'PT Serif', serif;
+  font-weight: 300;
+  color: #64656F; }
+
+.text-mega-huge {
+  font-size: 1.5rem;
+  font-family: 'PT Serif', serif;
+  font-weight: 300;
+  color: white; }
+  @media (min-width: 1000px) {
+    .text-mega-huge {
+      font-size: 1.6rem; } }
+  @media (min-width: 1200px) {
+    .text-mega-huge {
+      font-size: 1.8rem; } }
+  @media (min-width: 1400px) {
+    .text-mega-huge {
+      font-size: 2rem; } }
+
+.subtitle-mega-huge {
+  /*font-size: 4em;*/
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: 'Heebo', serif; }
+
+.list {
+  font-size: 2rem;
+  font-family: 'PT Serif', serif;
+  font-weight: 300;
+  line-height: 1.4; }
+
+.list-huge {
+  font-size: 2rem;
+  font-family: 'Heebo', serif;
+  font-weight: 300;
+  line-height: 1.6; }
+
+.list-mega-huge {
+  font-size: 2.5rem;
+  font-family: 'Heebo', serif;
+  font-weight: 300;
+  line-height: 1.6; }
+
+.shadow-1 {
+  box-shadow: 10px 15px 30px 0 rgba(0, 0, 0, 0.1); }
+
+.shadow-2 {
+  box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.2); }

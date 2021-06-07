@@ -110,12 +110,12 @@
   font-weight: 300;
   color: white; }
   @media (min-width: 1000px) {
-     .header,
+/*     .header,
   .contact,
   .awards,
   .clients {
     overflow-y: scroll;
- }
+ }*/
     .text-mega-huge, .content-bloc {
       font-size: calc(0.8rem + 6 * ((100vw - 320px) / 680)); } }
 
@@ -598,6 +598,7 @@ a {
   .awards,
   .clients {
     padding: 12vw 12vw;
+    overflow:  initial;
  }
   .content {
     grid-template-columns: 100%;
@@ -627,7 +628,7 @@ ANIMATIONS
   animation-name: fadeIn, fadeBorderIn;
   animation-duration: 2.5s;
   animation-fill-mode: forwards; 
-    overflow: hidden;}
+    }
 
 .fade-in-border {
   border-color: rgba(255, 255, 255, 0);

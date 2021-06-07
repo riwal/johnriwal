@@ -626,7 +626,8 @@ ANIMATIONS
   opacity: 0;
   animation-name: fadeIn, fadeBorderIn;
   animation-duration: 2.5s;
-  animation-fill-mode: forwards; }
+  animation-fill-mode: forwards; 
+    overflow: hidden;}
 
 .fade-in-border {
   border-color: rgba(255, 255, 255, 0);

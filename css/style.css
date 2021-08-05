@@ -210,12 +210,7 @@ a {
 .title-bloc {
   padding-bottom: 4vw;}
 }
-/*---------------------------- CURRENT*/
 
-.projects .content-bloc span:not(:last-child):after {
-  content: " · ";
-  color: rgba(255, 255, 255, 0.2);
-}
 
 /*---------------------------- CLIENT*/
 
@@ -225,6 +220,7 @@ a {
 }
 
 /*---------------------------- AWARDS*/
+.projects .content-bloc > span,
 .awards .content-bloc > span {
   display: block;
 }
